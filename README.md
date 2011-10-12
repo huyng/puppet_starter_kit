@@ -1,7 +1,7 @@
 Setup
 =====
 
-On the machine you want to configure
+On the machine you want to configure, run the following as root
     
     hostname 'rice.yourcompany.org' 
     
