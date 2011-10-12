@@ -1,5 +1,4 @@
 #!/bin/sh -e -x
-cd /root
 echo "=> begin provisioning software"
 apt-get update
 apt-get -y upgrade
