@@ -3,7 +3,7 @@ Setup
 
 On the machine you want to configure, run the following as root
     
-    hostname 'rice.yourcompany.org' 
+    hostname 'rice.yourcompany.org' # this tells puppet which configuration to use
     
     mkdir /etc/puppet
     cd /etc/puppet
@@ -28,7 +28,7 @@ Now whenever you've made changes to `/etc/puppet`  you can re-run puppet by runn
 Instructions for allocating new machines
 ========================================
 
-Add a new "node" entry into manifests/nodes.pp. Here's an example:
+Add a new "node" entry into `manifests/nodes.pp`. Here's an example:
 
     node '<YOUR NODE NAME>' {
 
@@ -42,3 +42,7 @@ Add a new "node" entry into manifests/nodes.pp. Here's an example:
     }
     
 
+Helpful links
+=============
+
+[http://docs.puppetlabs.com/references/stable/type.html]()
